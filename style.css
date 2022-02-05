@@ -99,7 +99,7 @@ p {
     margin-top: 10px;
 }
 .continuer:active{
-    background-color: red;
+    background-color: rgb(8, 61, 92);
 }
 .panier {
     background-color: #F2F2F2;
@@ -186,7 +186,7 @@ hr {
     margin-right: 20px;
 }
 #buy:active{
-    background-color: red;
+    background-color: green;
 }
 @media screen and (max-width:750px) {
     section {
