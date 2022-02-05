@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="devchallenges.png">
+</head>
+<body>
+    <div class="corps">
+        <h1>Checkout</h1>
+        <section>
+            <div class="formulaire">
+                <h2>Contact information</h2>
+                <h3>E-mail</h3>
+                <div id="entree">
+                    <span class="material-icons">email</span>
+                    <input type="email" placeholder="Enter your email...">
+                </div>
+                <h3>Phone</h3>
+                <div id="entree">
+                    <span class="material-icons">phone</span>
+                    <input type="tel" placeholder="Enter your phone...">
+                </div>
+                <h2>Shipping address</h2>
+                <h3>Full name</h3>
+                <div id="entree">
+                    <span class="material-icons">account_circle</span>
+                    <input type="text" placeholder="Enter your name...">
+                </div>
+                <h3>Address</h3>
+                <div id="entree">
+                    <span class="material-icons">home</span>
+                    <input type="text" placeholder="Enter your address...">
+                </div>
+                <h3>City</h3>
+                <div id="entree">
+                    <span class="material-icons">location_city</span>
+                    <input type="text" placeholder="Enter your city...">
+                </div>
+                <div class="localisation">
+                    <div class="local left">
+                        <h3>Country</h3>
+                        <div id="entree">
+                            <span class="material-icons">public</span>
+                            <label for="pays">Dans quel pays habitez-vous ?</label><br />
+                            <select name="pays" id="pays">
+                                <option value="base">Your country...</option>
+                                <option value="france">France</option>
+                                <option value="espagne">Espagne</option>
+                                <option value="italie">Italie</option>
+                                <option value="royaume-uni">Royaume-Uni</option>
+                                <option value="canada">Canada</option>
+                                <option value="etats-unis">États-Unis</option>
+                                <option value="chine">Chine</option>
+                                <option value="japon">Japon</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="local right">
+                        <h3>Postal code</h3>
+                        <div id="entree">
+                            <span class="material-icons">markunread_mailbox</span>
+                            <input type="tel" placeholder="Enter your postal code...">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input class="choix" type="checkbox" name="choix">
+                    <label for="choix">
+                        <p>Save this informations for the next time</p>
+                    </label>
+                </div>
+                <button id="continue" class="continuer">Continue</button>
+            </div>
+            <aside class="panier">
+                <div class="article">
+                    <img src="photo1.png" alt="sac à main">
+                    <div class="right">
+                        <h2>Vintage Backbag</h2>
+                        <h4>$54.99</h4>
+                        <h5>$94.99</h5>
+                        <div class="nombre">
+                            <button id="moins1">-</button>
+                            <p id="numero1">1</p>
+                            <button id="plus1">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <img src="photo2.png" alt="chaussures">
+                    <div class="right">
+                        <h2>Levi Shoes</h2>
+                        <h4>$74.99</h4>
+                        <h5>$124.99</h5>
+                        <div class="nombre">
+                            <button id="moins2">-</button>
+                            <p id="numero2">1</p>
+                            <button id="plus2">+</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h2 class="fin">Shipping</h2>
+                <p id="shipping">$19</p>
+                <hr>
+                <h2 class="fin">Total</h2>
+                <p id="total">$148.98</p>
+                <button id="buy">Buy it</button>
+            </aside>
+        </section>
+    </div>
+    <footer>created by Foucbert - DevChallenges.io</footer>
+</body>
+</html>

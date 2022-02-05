@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+* {
+    font-family:'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 5%;
+    cursor: url('cursor.png'), auto;	
+}
+section {
+    display: flex;
+}
+.formulaire {
+    min-width: 350rem;
+    margin-right: 112rem;
+}
+input {
+    border: none;  
+    outline: none;
+    padding-left: 18rem;
+    font-size: 16rem;
+    width: 100%;
+}
+.material-icons {
+    color: rgb(117, 114, 114);
+}
+h1 {
+    font-size: 36rem;
+}
+.corps {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64rem;
+}  
+#entree  {
+    display: flex;
+    height: 56rem;
+    width: 100%;
+    border: 1rem solid #828282;
+    border-radius: 10rem;
+    justify-content: left;
+    align-items: center;
+    padding-left: 14rem;
+    margin-bottom: 15rem;
+}
+*::selection {
+    background-color: rgb(8, 61, 92);
+    color: white;
+}
+h2 {
+    font-size: 18rem;
+    margin-bottom: 10rem;
+    margin-top: 50rem;
+}
+h3 {
+    font-size: 12rem;
+    margin-bottom: 7rem;
+}
+.localisation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.left {
+    margin-right: 25rem;
+    width: 350rem;
+}
+.right{
+    float: right;
+}
+select, option{
+    font-size: 16rem;
+    border: none;
+    color: #828282;
+    outline: none;
+    width: 100%;
+}
+p {
+    font-size: 12rem;
+    display: inline;
+}
+.choix {
+    padding: 0;
+    width: 10%;
+    background-color: red;
+}
+.checkbox {
+    display: flex;
+}
+.continuer {
+    background-color:#F2994A;
+    font-size: 16rem;
+    color: white;
+    border: none;
+    height: 54rem;
+    width: 166rem;
+    border-radius: 12rem;
+    float: right;
+    margin-top: 10px;
+}
+.continuer:active{
+    background-color: red;
+}
+.panier {
+    background-color: #F2F2F2;
+    width:50%;
+    border-radius: 12px;
+    height: 95%;
+    padding-bottom: 33px;
+}
+.article {
+    display: flex;
+}
+button {
+    background-color: #E0E0E0;
+    height: 21px;
+    width: 21px;
+    border: none;
+    color: black;
+    font-size: 20rem;
+    margin: 5px;
+}
+h4 {
+    font-size: 16rem;
+    color: #F2994A;
+    display: inline;
+    margin-right: 10px;
+}
+h5 {
+    font-size: 12rem;
+    text-decoration: line-through;
+    display: inline;
+}
+img {
+    width: 45%;
+    border-radius: 12px;
+    margin: 33px 33px 0px 33px
+}
+.nombre {
+    width: 90rem;
+    border: 1rem solid black;
+    border-radius: 10rem;
+    margin-top: 30px;
+}
+#plus1, #plus2{
+    float: right;
+}
+.right {
+    width: 100%;
+    margin-right: 60px;
+}
+#numero1, #numero2 {
+    text-align: center;
+}
+hr {
+    border:none;
+    background-color: #BDBDBD;
+    height:1px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fin{
+    display: inline;
+    margin-left: 25rem;
+    margin-bottom: 25rem;
+}
+#shipping, #total{
+    float: right;
+    margin-right: 25rem;
+    font-size: 16rem;
+}
+#buy{
+    background-color:#F2994A;
+    font-size: 16rem;
+    color: white;
+    border: none;
+    height: 54rem;
+    width: 166rem;
+    border-radius: 12rem;
+    float: right;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 20px;
+}
+#buy:active{
+    background-color: red;
+}
+@media screen and (max-width:750px) {
+    section {
+        flex-direction: column-reverse;
+    }
+    .panier{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    .formulaire{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+footer {
+    text-align: center;
+    font-size: 10rem;
+    margin-top: 20px;
+}
