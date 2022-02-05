@@ -10,51 +10,51 @@ section {
     display: flex;
 }
 .formulaire {
-    min-width: 350rem;
-    margin-right: 112rem;
+    min-width: 350px;
+    margin-right: 112px;
 }
 input {
     border: none;  
     outline: none;
-    padding-left: 18rem;
-    font-size: 16rem;
+    padding-left: 18px;
+    font-size: 16px;
     width: 100%;
 }
 .material-icons {
     color: rgb(117, 114, 114);
 }
 h1 {
-    font-size: 36rem;
+    font-size: 36px;
 }
 .corps {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 64rem;
+    margin-top: 64px;
 }  
 #entree  {
     display: flex;
-    height: 56rem;
+    height: 56px;
     width: 100%;
-    border: 1rem solid #828282;
-    border-radius: 10rem;
+    border: 1px solid #828282;
+    border-radius: 10px;
     justify-content: left;
     align-items: center;
-    padding-left: 14rem;
-    margin-bottom: 15rem;
+    padding-left: 14px;
+    margin-bottom: 15px;
 }
 *::selection {
     background-color: rgb(8, 61, 92);
     color: white;
 }
 h2 {
-    font-size: 18rem;
-    margin-bottom: 10rem;
-    margin-top: 50rem;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 h3 {
-    font-size: 12rem;
-    margin-bottom: 7rem;
+    font-size: 12px;
+    margin-bottom: 7px;
 }
 .localisation {
     display: flex;
@@ -62,21 +62,21 @@ h3 {
     justify-content: space-between;
 }
 .left {
-    margin-right: 25rem;
-    width: 350rem;
+    margin-right: 25px;
+    width: 350px;
 }
 .right{
     float: right;
 }
 select, option{
-    font-size: 16rem;
+    font-size: 16px;
     border: none;
     color: #828282;
     outline: none;
     width: 100%;
 }
 p {
-    font-size: 12rem;
+    font-size: 12px;
     display: inline;
 }
 .choix {
@@ -89,12 +89,12 @@ p {
 }
 .continuer {
     background-color:#F2994A;
-    font-size: 16rem;
+    font-size: 16px;
     color: white;
     border: none;
-    height: 54rem;
-    width: 166rem;
-    border-radius: 12rem;
+    height: 54px;
+    width: 166px;
+    border-radius: 12px;
     float: right;
     margin-top: 10px;
 }
@@ -117,17 +117,17 @@ button {
     width: 21px;
     border: none;
     color: black;
-    font-size: 20rem;
+    font-size: 20px;
     margin: 5px;
 }
 h4 {
-    font-size: 16rem;
+    font-size: 16px;
     color: #F2994A;
     display: inline;
     margin-right: 10px;
 }
 h5 {
-    font-size: 12rem;
+    font-size: 12px;
     text-decoration: line-through;
     display: inline;
 }
@@ -137,9 +137,9 @@ img {
     margin: 33px 33px 0px 33px
 }
 .nombre {
-    width: 90rem;
-    border: 1rem solid black;
-    border-radius: 10rem;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 10px;
     margin-top: 30px;
 }
 #plus1, #plus2{
@@ -164,22 +164,22 @@ hr {
 }
 .fin{
     display: inline;
-    margin-left: 25rem;
-    margin-bottom: 25rem;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
 #shipping, #total{
     float: right;
-    margin-right: 25rem;
-    font-size: 16rem;
+    margin-right: 25px;
+    font-size: 16px;
 }
 #buy{
     background-color:#F2994A;
-    font-size: 16rem;
+    font-size: 16px;
     color: white;
     border: none;
-    height: 54rem;
-    width: 166rem;
-    border-radius: 12rem;
+    height: 54px;
+    width: 166px;
+    border-radius: 12px;
     float: right;
     margin-top: 30px;
     margin-left: 140px;
@@ -209,6 +209,6 @@ hr {
 }
 footer {
     text-align: center;
-    font-size: 10rem;
+    font-size: 10px;
     margin-top: 20px;
 }
